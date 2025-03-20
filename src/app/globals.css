@@ -7,6 +7,12 @@
 
 @theme :default{
 
+
+  --color-custom-darkblue: #28283A;
+  --color-custom-darkblue-shadow: #1A1A2B;
+  --color-custom-grey-text: #4E4E52;
+
+
   --animate-dropdown: dropdown 0.1s ease-in-out ;
 
   @keyframes dropdown {
