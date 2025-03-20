@@ -5,7 +5,9 @@ import NavBar from "./ui/NavBar";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-gray-700 via-gray-900 to-gray-950 text-white min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-gradient-to-b from-gray-700 via-gray-900 to-gray-950
+       text-white min-h-screen flex flex-col items-center justify-center"
+      >
       <section className="text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Welcome to My Portfolio
