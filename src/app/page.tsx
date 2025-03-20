@@ -5,7 +5,7 @@ import NavBar from "./ui/NavBar";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-gradient-to-b from-gray-700 via-gray-900 to-gray-950 text-white min-h-screen flex flex-col items-center justify-center">
       <section className="text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Welcome to My Portfolio
@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex justify-center space-x-4">
           <Link
             href="projects"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300"
+            className="bg-green-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300"
           >
             View Projects
           </Link>
@@ -34,7 +34,7 @@ export default function Home() {
           alt="Profile Picture"
           width={200}
           height={200}
-          className="rounded-full border-4 border-blue-500 shadow-lg"
+          className="rounded-full border-4 border-green-500 shadow-lg"
         />
       </section>
     </div>
