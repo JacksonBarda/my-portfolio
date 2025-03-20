@@ -23,7 +23,7 @@ export default function Footer() {
                     LinkedIn
                 </a>
                 <a
-                    href="https://github.com/your-username"
+                    href="https://github.com/JacksonBarda"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-custom-grey-text underline"
